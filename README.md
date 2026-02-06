@@ -11,7 +11,10 @@ pip install libauc==1.2.0
 For PAUC:
 ```
 cd pauc
-python main.py --model resnet18 --dataset cifar100 --Lambda 0.1 --loss_fn SCENT --alpha_t 4 --scheduler cosine --batch_size 64 --total_epochs 60 --lr 1e-3 --momentum 0.0 --pretrained [your pretrained model directory] --freeze_backbone
+python main.py
+--model resnet18 --dataset cifar100 --Lambda 0.1 --loss_fn SCENT
+--alpha_t 4 --scheduler cosine --batch_size 64 --total_epochs 60 --lr 1e-3 --momentum 0.0
+--pretrained [your pretrained model directory] --freeze_backbone
 ```
 For KL-DRO:
 ```
