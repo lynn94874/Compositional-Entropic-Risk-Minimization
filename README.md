@@ -1,6 +1,6 @@
-# pAUC Loss Experiments (LSE)
+# Running instructions for partial AUC and distributionally robust optimization
 
-This repository includes two experiment codes ---- Partial AUC and KL based distributionally robust optimization for paper *[A Geometry-Aware Efficient Algorithm for Compositional Entropic Risk Minimization](https://www.arxiv.org/pdf/2602.02877)*.
+This repository includes two experiment codes ---- Partial AUC and KL-based distributionally robust optimization for paper *[A Geometry-Aware Efficient Algorithm for Compositional Entropic Risk Minimization](https://www.arxiv.org/pdf/2602.02877)*.
 
 ## Setup
 ```
